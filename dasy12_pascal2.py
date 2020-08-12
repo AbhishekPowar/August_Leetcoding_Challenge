@@ -25,6 +25,13 @@ ans[2] = 1* (4/1) (3/2) = 6
 ans[3] = 1 (4/1) (3/2) * (2/3) = 4
 ans[4] = 1 (4/1) *(3/2) * (2/3) * (1/4) = 1
 '''
+'''
+This is due to Binomial Theorem
+##Pattern is 
+numerator is decresing by one 
+and
+denominator is increasing by one
+'''
 
 
 class Solution:
