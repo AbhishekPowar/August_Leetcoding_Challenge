@@ -19,8 +19,8 @@ class Solution:
 
 
 # How does this work
--  Count overlaps while minimising them
--  how
+# -  Count overlaps while minimising them
+# -  how
 # Case 1:
 # ------------A
 # ----B
