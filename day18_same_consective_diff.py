@@ -13,5 +13,5 @@ class Solution:
                     ans2.append(num*10+high)
                 if low >= 0 and low != high:
                     ans2.append(num*10+low)
-            ans = ans2[:]
+            ans = ans2
         return ans
