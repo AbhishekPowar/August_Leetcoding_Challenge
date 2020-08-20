@@ -55,41 +55,41 @@ class Solution:
         return head
         
 #Explanation
-Input
-1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> None 
+# Input
+# 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> None 
 
-Find middle and divide
-l1 = 1 -> 2 -> 3 -> 4 -> None
-l2 = 5 -> 6 -> 7 -> 8 -> None 
+# Find middle and divide
+# l1 = 1 -> 2 -> 3 -> 4 -> None
+# l2 = 5 -> 6 -> 7 -> 8 -> None 
 
-Reverse l2
-l1 = 1 -> 2 -> 3 -> 4 -> None
-l2 = 8 -> 7 -> 6 -> 5 -> None 
-
-
-nh = ()
-pass1
-l1 = 1    2 -> 3 -> 4 -> None
-     |   ^
-     |  /
-     v/
-l2 = 8    7 -> 6 -> 5 -> None 
+# Reverse l2
+# l1 = 1 -> 2 -> 3 -> 4 -> None
+# l2 = 8 -> 7 -> 6 -> 5 -> None 
 
 
-pass2
-l1 = 1    2    3 -> 4 -> None
-     |   ^|   ^
-     |  / |  /
-     v/   v/
-l2 = 8    7    6 -> 5 -> None 
+# nh = ()
+# pass1
+# l1 = 1    2 -> 3 -> 4 -> None
+#      |   ^
+#      |  /
+#      v/
+# l2 = 8    7 -> 6 -> 5 -> None 
 
-last pass
-l1 = 1    2    3    4    None
-     |   ^|   ^|   ^|   ^
-     |  / |  / |  / |  /
-     v/   v/   v/   v/
-l2 = 8    7    6    5    None 
 
-Answer is 
+# pass2
+# l1 = 1    2    3 -> 4 -> None
+#      |   ^|   ^
+#      |  / |  /
+#      v/   v/
+# l2 = 8    7    6 -> 5 -> None 
 
-1 -> 8 -> 2 -> 7 -> 3 -> 6 -> 4 -> 5 -> None 
+# last pass
+# l1 = 1    2    3    4    None
+#      |   ^|   ^|   ^|   ^
+#      |  / |  / |  / |  /
+#      v/   v/   v/   v/
+# l2 = 8    7    6    5    None 
+
+# Answer is 
+
+# 1 -> 8 -> 2 -> 7 -> 3 -> 6 -> 4 -> 5 -> None 
